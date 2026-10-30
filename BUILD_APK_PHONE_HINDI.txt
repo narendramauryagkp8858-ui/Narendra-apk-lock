@@ -1,0 +1,13 @@
+मोबाइल से APK बनाने का तरीका (कंप्यूटर की जरूरत नहीं)
+
+1. इस ZIP को डाउनलोड करके अपने फोन में Extract करें।
+2. https://github.com पर अपना अकाउंट बनाएं या लॉगिन करें।
+3. + दबाएं > New repository चुनें। नाम NarendraAppLock रखें और Create repository दबाएं।
+4. Add file > Upload files चुनें। Extract किए गए NarendraAppLock फोल्डर के अंदर की सभी फाइलें/फोल्डर अपलोड करें। ध्यान दें: .github फोल्डर भी अपलोड होना चाहिए।
+5. Commit changes दबाएं।
+6. Repository में Actions टैब खोलें। अगर अनुमति मांगे तो workflow enable करें।
+7. “Build Narendra AppLock APK” workflow खोलें और Run workflow दबाएं (push पर भी अपने-आप build शुरू होगा)।
+8. Build सफल होने पर workflow run खोलें। नीचे Artifacts में Narendra-AppLock-debug-APK डाउनलोड करें। ZIP को Extract करें; उसमें app-debug.apk होगा।
+9. APK इंस्टॉल करने के लिए Android की अनुमति मांगे तो केवल तभी अनुमति दें जब आपने अपना ही build चलाया हो।
+
+नोट: यह GitHub के cloud computer पर build होगा। Build सफल होना और फोन पर सभी सुविधाओं का सही चलना अलग बातें हैं; वास्तविक डिवाइस पर Accessibility और biometric permissions टेस्ट करना जरूरी है।
