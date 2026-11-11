@@ -54,3 +54,18 @@ jobs:
           name: Narendra-AppLock-APK
           path: ${{ steps.project.outputs.dir }}/app/build/outputs/apk/debug/*.apk
           if-no-files-found: error
+
+      - name: Check Android Project Structure
+        working-directory: ${{ steps.project.outputs.dir }}
+        run: |
+          echo "===== PROJECT FILES ====="
+          find . -maxdepth 3 -type f | sort | head -200
+
+          echo "===== SETTINGS FILE ====="
+          cat settings.gradle 2>/dev/null || cat settings.gradle.kts
+
+          echo "===== GRADLE PROJECTS ====="
+          gradle projects
+
+          echo "===== AVAILABLE TASKS ====="
+          gradle tasks --all
