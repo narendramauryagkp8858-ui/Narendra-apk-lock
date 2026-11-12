@@ -6,7 +6,7 @@
     <application
         android:allowBackup="false"
         android:label="Narendra AppLock"
-        android:theme="@style/AppTheme"
+        android:theme="@android:style/Theme.Material.NoActionBar"
         android:supportsRtl="true">
 
         <activity
