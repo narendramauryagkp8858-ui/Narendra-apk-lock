@@ -1,0 +1,8 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Narendra AppLock</string>
+    <string name="app_tagline">Your Privacy, Our Priority</string>
+    <string name="default_pin">8546</string>
+    <string name="app_version">1.0</string>
+</resources>
