@@ -1,19 +1,9 @@
-
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
     android:orientation="vertical"
-    android:padding="24dp"
+    android:gravity="center"
     android:background="#0C1226">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="🔐"
-        android:textSize="64sp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -21,15 +11,6 @@
         android:text="NARENDRA APPLOCK"
         android:textColor="#FFFFFF"
         android:textSize="26sp"
-        android:textStyle="bold"
-        android:layout_marginTop="20dp"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Your Privacy, Our Priority"
-        android:textColor="#B8C4DC"
-        android:textSize="16sp"
-        android:layout_marginTop="10dp"/>
+        android:textStyle="bold" />
 
 </LinearLayout>
